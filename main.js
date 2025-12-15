@@ -35,3 +35,5 @@ const weatherApi = async () => {
 input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') weatherApi()
 })
+
+console.log("hello");
