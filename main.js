@@ -19,6 +19,7 @@ const weatherApi = async () => {
 
         if(data.current.condition.text==="Mist"){
             
+            
         }
 
 
@@ -35,5 +36,3 @@ const weatherApi = async () => {
 input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') weatherApi()
 })
-
-console.log("hello");
